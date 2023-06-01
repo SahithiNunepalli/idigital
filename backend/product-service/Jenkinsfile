@@ -1,8 +1,1 @@
-node{
-  stage('SCM checkout'){
-    git 'https://github.com/SahithiNunepalli/idigital'
-    }
-    stage('Compile-Package'){
-      sh 'mvn package'
-      }
-  }
+"deleted"
